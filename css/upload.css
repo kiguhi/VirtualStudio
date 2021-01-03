@@ -1,0 +1,52 @@
+.uploadform{
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10;
+}
+.upload{
+    width: 70%;
+    margin-left: 15%;
+}
+.input-icons- i { 
+    position: absolute; 
+} 
+  
+.input-icons- { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+.input-field- { 
+    width: 100%; 
+    padding: 10px; 
+    text-align: center; 
+}
+.uploadbtn{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 35;
+}
+.uploadbtn:hover,
+.uploadbtn:focus{
+    opacity: 0.7;
+    text-decoration: none;
+    cursor: pointer;
+}
+.add_btn{
+    color: rgb(37, 37, 37);
+    background-color: #ccc;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    height: 150;
+    width: 150;
+    cursor: pointer;
+    font-size: 20px;
+}
+.add_btn:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
