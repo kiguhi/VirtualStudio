@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>--Studios</title>
+  <link href="css/index.css" rel="stylesheet" type="text/css" media="all"/>
+  <link href="fontawesome-free-5.13.0-web/css/fontawesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/regular.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/solid.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+   <body>
+    <img src="images/" class="logo" alt="logo">
+        <div class="container">
+            <div class="top_bar">
+                <a href="mailto:#"><i class="fa fa-envelope icon"></i></a>
+                <!--<a href="#"><i class="fab fa-github icon"></i></a>
+                <a href="#"><i class="fab fa-linkedin icon"></i></a>
+                <a href="#"><i class="fab fa-twitter icon"></i></a>
+                <a href="#"><i class="fab fa-youtube icon"></i></a>
+                <a href="#"><i class="fab fa-instagram icon"></i></a>
+                <a href="#"><i class="fab fa-facebook icon"></i></a>-->
+            </div>
+             <div class="main_div">
+                <div class="top_bar2">
+                  <div>
+                    <a href="index.html">Home</a>
+                    <a href="explore.html">Explore</a>
+                    <a href="contactUs.html">Contact Us</a>
+                    <a href="login.html">Admin</a>
+                    </div>
+                </div>
+                <div class="artists">
+                  <div class="view_btn">
+                    <!---button o choose list or grid view-->
+                  <button onclick="upload()" class="view_btn_"><i class="fa fa-arrow-up "></i>Upload Artist</button>
+                  <button onclick="listView()" class="view_btn_"><i class="fa fa-bars"></i>List View</button>
+                  <button onclick="gridView()" class="view_btn_"><i class="fa fa-th-large"></i>Grid View</button>
+                  </div>
+                 <div class="row">
+                    <div class="column" id="edit1" onclick="edit()">
+                      <img src="images/img.jpg" class="desc_img" alt="logo">
+                         <div class="desc_">
+                           <h2>Artist 1</h2>
+                          <p>name...</p>
+                          <p>musician...</p>
+                        </div>
+                    </div>
+                    <div class="column" id="edit2" onclick="edit()">
+                      <img src="images/img.jpg" class="desc_img" alt="logo">
+                         <div class="desc_">
+                           <h2>Artist 1</h2>
+                           <p>name...</p>
+                           <p>painter...</p>
+                        </div>
+                    </div>
+                 </div>
+               </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/main.js"></script>
+   </body>
+</html>
